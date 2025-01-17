@@ -11,17 +11,13 @@ get_lengths = lambda mat: np.sqrt((mat**2).sum(axis=1))
 
 
 def remove_elements_from_array(arr, target_element, count_to_remove):
-    # 反向遍历数组，并删除指定数量的目标元素
     count_removed = 0
-
     for i in range(len(arr) - 1, -1, -1):
         if arr[i] == target_element:
             arr.pop(i)
             count_removed += 1
             if count_removed == count_to_remove:
                 break
-
-    # 转回 numpy 数组
     return np.array(arr)
 
 
