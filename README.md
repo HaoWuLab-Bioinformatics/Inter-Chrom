@@ -2,7 +2,7 @@
 A novel deep learning framework with DNABERT’s word embedding for identifying Chromatin interactions along with motif importance investigation
 
 ## The framework of Inter-Chrom
-![image](figure_1.jpg)
+![image](figure1.jpg)
 
 ## Overview
 The folder "**data**" contains the datasets of three cell lines for Inter-Chrom to train and test.
