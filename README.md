@@ -10,9 +10,9 @@ The folder "**getData**" contains get_token.py and motif_find.py.
 get_token.py: to divide the sequence by word, convert it into a token, which is represented by ID, and finally filter it into a subsequence composed of words with a frequency of the top 500 and a subsequence with an ID size of the top 500.  
 motif_find.py: to match specific motifs in DNA sequences.  
 The folder "**model**" contains 4 files.  
-model.py: main code of Inter-Chrom  
+model.py: main framework of Inter-Chrom  
 train.py: the process of training  
-get_dataset.py: to obtain the samples for training and testing  
+get_dataset.py: to obtain the samples for training and testing with chromosome-splitting strategy
 DNABERT_embedding_matrix.npy: including the word vector corresponding to the token's ID  
 The folder "**motif**" contains the position weight matrix (PWM) of motifs and the p-value threshold score from the HOCOMOCO Human v11 database.  
 
